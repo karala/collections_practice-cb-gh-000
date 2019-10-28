@@ -5,7 +5,7 @@ def sort_array_asc(num)
 end
 
 def sort_array_desc(num)
-  num.sort.descending do |a, b|
+  num.sort.desc do |a, b|
     a <=> b
   end
 end
