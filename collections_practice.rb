@@ -33,6 +33,6 @@ end
 
 def find_a(array)
   array.find_all do |a|
-    a[0] = "a"
+    a[0] == "a"
   end
 end
