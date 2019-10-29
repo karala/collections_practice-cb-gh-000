@@ -36,3 +36,7 @@ def find_a(array)
     a[0] == "a"
   end
 end
+
+def sum_array(array)
+  
+end
